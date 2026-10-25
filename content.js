@@ -1,15 +1,9 @@
-/* =========================================================
-   ✏️ 以后更新个人主页，主要修改这个文件即可。
-   en = 英文，zh = 中文；不用修改其它文件。
-   添加项目：复制 projects 数组中的一个 { ... } 对象。
-   ========================================================= */
 window.SITE_CONTENT = {
   // 1. 基本信息
   name: 'Xiaoning Zhao',
-  nameZh: '', // 中文姓名（不确定可以留空，网页会显示英文名）
+  nameZh: '赵晓宁', // 中文姓名（不确定可以留空，网页会显示英文名）
   initials: 'XZ',
-  // 个人照片：在项目放入 avatar.jpg，再改为 'avatar.jpg'；不使用就留空
-  avatar: '',
+  avatar: 'avatar.jpg',
   email: 'xiaoningzzz@163.com',
   github: 'https://github.com/xiaoningzzz',
 
@@ -23,11 +17,9 @@ window.SITE_CONTENT = {
   about: {
     en: [
       "Hello! I'm Xiaoning Zhao, a master's student in Software Engineering at Nankai University. My research interests lie at the intersection of software engineering and artificial intelligence, particularly code search and retrieval, multimodal learning, and large language models (LLMs).",
-      "I'm interested in how representation learning and language models can help researchers and developers better understand, search, and work with software and multimodal information."
     ],
     zh: [
       '你好！我是 Xiaoning Zhao，目前在南开大学攻读软件工程硕士学位。我的研究兴趣位于软件工程与人工智能的交叉领域，主要包括代码搜索与检索、多模态学习以及大语言模型（LLM）。',
-      '我关注如何利用表示学习与语言模型，帮助研究人员和开发者更好地理解、检索和利用软件及多模态信息。'
     ]
   },
 
@@ -91,10 +83,9 @@ window.SITE_CONTENT = {
     }
   ],
 
-  // 6. 论文：目前没有提供，保持 [] 就不会显示 Publications 模块
-  // 日后可填：{ title: 'Paper title', authors: '...', venue: '...', year: '2027', url: 'https://...' }
+  // 6. 论文
   publications: [
-    { title: 'Paper title', authors: '...', venue: '...', year: '2027', url: 'https://...' }
+   // { title: 'Paper title', authors: '...', venue: '...', year: '2027', url: 'https://...' }
   ],
 
   // 7. 联系语
