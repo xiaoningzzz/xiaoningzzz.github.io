@@ -1,7 +1,7 @@
 window.SITE_CONTENT = {
   // 1. 基本信息
   name: 'Xiaoning Zhao',
-  nameZh: '赵晓宁', // 中文姓名（不确定可以留空，网页会显示英文名）
+  nameZh: '赵晓宁',
   initials: 'XZ',
   avatar: 'avatar.jpg',
   email: 'xiaoningzzz@163.com',
@@ -56,17 +56,17 @@ window.SITE_CONTENT = {
     {
       school: { en: 'Nankai University', zh: '南开大学' },
       degree: { en: "Master's Student · Software Engineering", zh: '软件工程 · 硕士研究生' },
-      years: '2026.09 - 2029.6' // 可填 '2025 – Present'；未确认时留空
+      years: '2026.09 - 2029.6'
     },
     {
       school: { en: 'Hebei University of Technology', zh: '河北工业大学' },
       degree: { en: "Graduate Student · Artificial Intelligence", zh: '人工智能 · 本科生' },
-      years: '2023.09 - 2026.06' // 可填 '2025 – Present'；未确认时留空
+      years: '2023.09 - 2026.06'
     },
     {
       school: { en: 'Hebei University of Technology', zh: '河北工业大学' },
       degree: { en: "Graduate Student · Environmental Engineering", zh: '环境工程 · 本科生' },
-      years: '2022.09 - 2023.06' // 可填 '2025 – Present'；未确认时留空
+      years: '2022.09 - 2023.06'
     }
   ],
 
@@ -90,7 +90,7 @@ window.SITE_CONTENT = {
 
   // 7. 联系语
   contactText: {
-    en: "I'm happy to connect with others interested in software engineering and AI research.",
-    zh: '欢迎与我交流软件工程及人工智能相关研究。'
+  //  en: "I'm happy to connect with others interested in software engineering and AI research.",
+  //  zh: '欢迎与我交流软件工程及人工智能相关研究。'
   }
 };
