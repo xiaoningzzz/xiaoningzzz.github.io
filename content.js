@@ -16,10 +16,10 @@ window.SITE_CONTENT = {
   // 2. 自我介绍
   about: {
     en: [
-      "Hello! I'm Xiaoning Zhao, a master's student in Software Engineering at Nankai University. My research interests lie at the intersection of software engineering and artificial intelligence, particularly code search and retrieval, multimodal learning, and large language models (LLMs).",
+      "Hello! I'm Xiaoning Zhao, a master's student in Software Engineering at Nankai University. My research interests lie at the intersection of software engineering and artificial intelligence, particularly code search and retrieval, multimodal machine learning, and large language models (LLMs).",
     ],
     zh: [
-      '你好！我是 Xiaoning Zhao，目前在南开大学攻读软件工程硕士学位。我的研究兴趣位于软件工程与人工智能的交叉领域，主要包括代码搜索与检索、多模态学习以及大语言模型（LLM）。',
+      '你好！我是赵晓宁，目前在南开大学攻读软件工程硕士学位。我的研究兴趣位于软件工程与人工智能的交叉领域，主要包括代码搜索与检索、多模态机器学习以及大语言模型（LLM）。',
     ]
   },
 
@@ -35,7 +35,7 @@ window.SITE_CONTENT = {
     },
     {
       area: 'ML',
-      title: { en: 'Multimodal Learning', zh: '多模态学习' },
+      title: { en: 'Multimodal Machine Learning', zh: '多模态机器学习' },
       description: {
         en: 'Learning from and aligning information across text, images, and other modalities.',
         zh: '跨文本、图像等模态的信息学习、表示与对齐。'
