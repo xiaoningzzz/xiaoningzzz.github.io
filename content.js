@@ -5,7 +5,7 @@ window.SITE_CONTENT = {
   initials: 'XZ',
   avatar: 'avatar.jpg',
   email: 'xiaoningzzz@163.com',
-  github: 'github.com/xiaoningzzz',
+  github: 'https://github.com/xiaoningzzz',
 
   position: {
     en: 'M.S. Student in Software Engineering',
