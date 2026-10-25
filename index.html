@@ -1,27 +1,219 @@
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Personal Website</title>
+  <title>Xiaoning | Academic Homepage</title>
   <style>
+    * { box-sizing: border-box; }
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f7f8fc;
-      text-align: center;
-      padding: 80px 20px;
-      color: #222;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #293241;
+      background: white;
+      line-height: 1.75;
     }
-    h1 { font-size: 42px; }
-    a { color: #2563eb; }
+
+    .container {
+      max-width: 1050px;
+      margin: 65px auto;
+      padding: 0 30px;
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 65px;
+    }
+
+    .profile { text-align: center; }
+
+    .avatar {
+      width: 175px;
+      height: 175px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #e9edf3;
+    }
+
+    h1 {
+      font-size: 27px;
+      margin-bottom: 3px;
+    }
+
+    h2 {
+      font-size: 21px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 7px;
+      margin-top: 36px;
+    }
+
+    h3 {
+      font-size: 17px;
+      margin-bottom: 4px;
+    }
+
+    .subtitle {
+      color: #667085;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1763a6;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .links {
+      margin-top: 18px;
+      font-size: 14px;
+    }
+
+    .links a {
+      display: block;
+      margin: 7px 0;
+    }
+
+    ul { padding-left: 20px; }
+
+    li { margin-bottom: 8px; }
+
+    .project {
+      margin-bottom: 21px;
+    }
+
+    .project p {
+      margin-top: 4px;
+      color: #667085;
+    }
+
+    footer {
+      margin-top: 55px;
+      font-size: 13px;
+      color: #98a2b3;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        display: block;
+        margin: 28px auto;
+      }
+
+      .profile { margin-bottom: 35px; }
+    }
   </style>
 </head>
+
 <body>
-  <h1>Hi, I'm Xiaoning 👋</h1>
-  <p>Welcome to my personal website!</p>
-  <p>AI · Multimodal Learning · Research</p>
-  <a href="https://github.com/xiaoningzzz">
-    My GitHub
-  </a>
+  <div class="container">
+
+    <aside class="profile">
+      <img src="avatar.jpg"
+           alt="Profile Photo"
+           class="avatar">
+
+      <h1>Xiaoning</h1>
+
+      <div class="subtitle">
+        Student / AI Research Enthusiast
+      </div>
+
+      <div class="subtitle">
+        Your University
+      </div>
+
+      <div class="links">
+        <a href="mailto:your-email@example.com">
+          Email
+        </a>
+        <a href="https://github.com/xiaoningzzz">
+          GitHub
+        </a>
+      </div>
+    </aside>
+
+    <main>
+
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Hi! I am Xiaoning, a student interested in
+          Artificial Intelligence and Machine Learning.
+        </p>
+        <p>
+          My current interests focus on multimodal learning,
+          vision-language models, and large language models.
+          I enjoy exploring new AI methods and building
+          practical research projects.
+        </p>
+      </section>
+
+      <section>
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Multimodal Learning</li>
+          <li>Vision-Language Models (VLMs)</li>
+          <li>Large Language Models (LLMs)</li>
+          <li>Parameter-Efficient Fine-Tuning</li>
+          <li>AI Agents and Reinforcement Learning</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <p>
+          <strong>Your University</strong><br>
+          Your Degree / Major<br>
+          20XX - Present
+        </p>
+      </section>
+
+      <section>
+        <h2>News</h2>
+        <ul>
+          <li>
+            [2026] Launched my academic homepage.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Selected Projects</h2>
+
+        <div class="project">
+          <h3>
+            <a href="https://github.com/xiaoningzzz/Multi-Modal-AI">
+              Multimodal AI Exploration
+            </a>
+          </h3>
+          <p>
+            Coursework and experiments involving multimodal
+            learning, fusion methods, LoRA fine-tuning,
+            reinforcement learning, and AI agents.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Publications</h2>
+        <p>Coming soon.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:your-email@example.com">
+            your-email@example.com
+          </a>
+        </p>
+      </section>
+
+      <footer>
+        © 2026 Xiaoning · Powered by GitHub Pages
+      </footer>
+
+    </main>
+  </div>
 </body>
 </html>
