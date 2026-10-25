@@ -19,7 +19,7 @@ window.SITE_CONTENT = {
   },
   university: { en: 'Nankai University', zh: '南开大学' },
 
-  // 2. 自我介绍：数组里的每一项都是一段文字
+  // 2. 自我介绍
   about: {
     en: [
       "Hello! I'm Xiaoning Zhao, a master's student in Software Engineering at Nankai University. My research interests lie at the intersection of software engineering and artificial intelligence, particularly code search and retrieval, multimodal learning, and large language models (LLMs).",
@@ -31,10 +31,10 @@ window.SITE_CONTENT = {
     ]
   },
 
-  // 3. 研究方向：可以增删，编号自动生成
+  // 3. 研究方向
   research: [
     {
-      area: 'SE',
+      area: 'CS',
       title: { en: 'Code Search & Retrieval', zh: '代码搜索与检索' },
       description: {
         en: 'Semantic code search, code representations, and retrieval methods for software engineering.',
@@ -78,7 +78,7 @@ window.SITE_CONTENT = {
     }
   ],
 
-  // 5. 项目：每增加一个项目，就复制一个完整的 { ... } 条目
+  // 5. 项目
   projects: [
     {
       name: 'Multi-Modal-AI',
@@ -93,7 +93,9 @@ window.SITE_CONTENT = {
 
   // 6. 论文：目前没有提供，保持 [] 就不会显示 Publications 模块
   // 日后可填：{ title: 'Paper title', authors: '...', venue: '...', year: '2027', url: 'https://...' }
-  publications: [],
+  publications: [
+    { title: 'Paper title', authors: '...', venue: '...', year: '2027', url: 'https://...' }
+  ],
 
   // 7. 联系语
   contactText: {
