@@ -58,16 +58,16 @@ window.SITE_CONTENT = {
       degree: { en: "Master's Student · Software Engineering", zh: '软件工程 · 硕士研究生' },
       years: '2026.09 - 2029.6'
     },
-    {
-      school: { en: 'Hebei University of Technology', zh: '河北工业大学' },
-      degree: { en: "Graduate Student · Artificial Intelligence", zh: '人工智能 · 本科生' },
-      years: '2023.09 - 2026.06'
-    },
-    {
-      school: { en: 'Hebei University of Technology', zh: '河北工业大学' },
-      degree: { en: "Graduate Student · Environmental Engineering", zh: '环境工程 · 本科生' },
-      years: '2022.09 - 2023.06'
-    }
+    // {
+    //  school: { en: 'Hebei University of Technology', zh: '河北工业大学' },
+    //  degree: { en: "Graduate Student · Artificial Intelligence", zh: '人工智能 · 本科生' },
+    //  years: '2023.09 - 2026.06'
+    // },
+    // {
+    //  school: { en: 'Hebei University of Technology', zh: '河北工业大学' },
+    //  degree: { en: "Graduate Student · Environmental Engineering", zh: '环境工程 · 本科生' },
+    //  years: '2022.09 - 2023.06'
+    // }
   ],
 
   // 5. 项目
